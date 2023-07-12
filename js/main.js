@@ -11,6 +11,13 @@ const inputWeight = document.querySelector("#weight");
 const inputHeight = document.querySelector("#height");
 
 /******************************
+Events
+******************************/
+
+inputWeight.oninput = () => AlertError.close();
+inputHeight.oninput = () => AlertError.close();
+
+/******************************
 Functions
 ******************************/
 
